@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz Login</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/assets/base.css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/Node.js">
+</head>
+<body>
+    <div id="login-container">
+        <h1>FizzBuzz Game</h1>
+        <form id="login-form">
+            <label for="username">Enter your username</label>
+            <input type="text" id="username-input" placeholder="Enter your username">
+            <button class="login-button" type="button" onclick="login()">Login</button>
+        </form>
+    </div>
+    <div id="welcome-container" style="display: none;">
+        <h1>Welcome, <span id="user-display"></span>!</h1>
+        <div id="FizzBuzz-output">0</div>
+        <button class="increment-button" onclick="FizzBuzz()">Click here to increment</button>
+    </div>
+</body>
+</html>

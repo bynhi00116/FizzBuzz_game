@@ -1,0 +1,82 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-size: 67.5%;
+    line-height: 1.6rem; /*=16px*/
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #4caf50;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 400px;
+}
+
+#login-container h1{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 3rem;
+}
+
+#login-container {
+    width: 500px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
+}
+
+#login-form{
+    width: 100%;
+    display: block;
+}
+
+form label{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: black;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#username-input{
+    width: 69%;
+    font-size: 1.4rem;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+}
+
+.login-button {
+    transition-duration: 0.2s;
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+    padding: 6px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.7rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-button:hover{
+    background-color: #4caf50;
+    color: white;
+}
